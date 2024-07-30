@@ -1,0 +1,5 @@
+run test, spicify how many virtual users and duration of test case
+k6 run --vus 10 --duration 5s hello.js 
+
+save out put to json
+k6 run --vus 10 --duration 5s hello.js --out json=test.json 

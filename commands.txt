@@ -1,0 +1,11 @@
+login to cloud
+k6 login cloud --token 797878049e86eade57bcfd53ae9d21b47317424cacbbf8496c805a120932689b 
+
+//run script on the cloud
+k6 cloud script.js
+
+//run script locally but output results to cloud
+k6 run script -o cloud
+
+
+k6 run script.js --vus 1 --duration 10s
